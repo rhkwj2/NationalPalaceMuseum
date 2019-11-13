@@ -190,20 +190,64 @@
         <scene sceneID="pQQ-7H-h7S">
             <objects>
                 <tableViewController id="yUw-hd-w7z" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="KAc-ih-m7m">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="KAc-ih-m7m">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ga9-jQ-kpe">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ga9-jQ-kpe" id="X18-v3-kHx">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
+                        <sections>
+                            <tableViewSection headerTitle="조각" id="e3x-Sp-dvG">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="140" id="ga9-jQ-kpe">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="140"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ga9-jQ-kpe" id="X18-v3-kHx">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="140"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="상아운룡문투구" translatesAutoresizingMaskIntoConstraints="NO" id="y7T-yb-Tgw">
+                                                    <rect key="frame" x="12" y="6" width="168" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="상아운룡문투구" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHw-2l-bkg">
+                                                    <rect key="frame" x="273" y="60" width="103" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Xgh-cA-nvc" kind="show" id="q4L-fG-1aF"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="140" id="E2p-3D-kZl">
+                                        <rect key="frame" x="0.0" y="168" width="414" height="140"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="E2p-3D-kZl" id="Cni-dt-AFc">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="140"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="조감람핵주" translatesAutoresizingMaskIntoConstraints="NO" id="mjX-K5-mMx">
+                                                    <rect key="frame" x="16" y="0.0" width="168" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="조감람핵주" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1cO-6C-N1Z">
+                                                    <rect key="frame" x="302" y="60" width="74" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="UUN-Qw-0ht" kind="show" id="YJk-EX-1J7"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
                         <connections>
                             <outlet property="dataSource" destination="yUw-hd-w7z" id="RIH-aZ-uo7"/>
                             <outlet property="delegate" destination="yUw-hd-w7z" id="x8Y-U9-QUh"/>
@@ -631,7 +675,7 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="청명상하도" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9A5-Rf-avB">
-                                                    <rect key="frame" x="314" y="60" width="74" height="21"/>
+                                                    <rect key="frame" x="290" y="60" width="74" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -892,12 +936,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gAD-WR-Zxm">
-                                <rect key="frame" x="59" y="446" width="300" height="346"/>
+                                <rect key="frame" x="59" y="446" width="300" height="367"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <mutableString key="text">청명상하도의 제재는 송대 장택단의 작품이 가장 유명다 볜징의 모습에 대한 그의 정교한 묘사는 사실풍속화의 걸작으로 평가받고 있다. 이 그림은 누구나 좋아하기 때문에 역대 모사본이 나타났는데 그 가운데 가장 유명한 것이 바로 청대 원본 &lt;청명상하도&gt;이다
 
-이 작품은 청 궁정 화원의 화가 5명이 건륭 원년에 공동으로 완성한 그림이다 그들은 각 조대의 모사본을 근거로 하여 각 작품의 장점을 두루 수렴한 다음, 명청 시대의 일부 특색과 답청(중국에서 청명절에 교외를 다니면서 산책), 희극 등 풍부한 이야기를 추가했기 때문에 비롯 송대의 고제를 상실하긴 했지만, 명청 교체기의 풍속을 연구하는데 중요한 자료가 되고 있다. 또한, 당시에 전래하기 시작한 서양화풍의 영향을 받아 거리와 건물 등에 모두 투시원리가 적용되었고, 서양식 건축물도 삽입되어 있다 작품 전체가 화려하고 밝은 색조를 사용하고 있으며, 원숙하고 정교한 필치로 교량과 건물, 인물 등을 섬세하고 빈틈없이 묘사하고 있어, 화원화가들의 작품 가운데 가장 뛰어난 작품으로 평가되고 있다
+이 작품은 청 궁정 화원의 화가 5명이 건륭 원년에 공동으로 완성한 그림이다 그들은 각 조대의 모사본을 근거로 하여 각 작품의 장점을 두루 수렴한 다음, 명청 시대의 일부 특색과 답청(중국에서 청명절에 교외를 다니면서 산책), 희극 등 풍부한 이야기를 추가했기 때문에 비롯 송대의 고제를 상실하긴 했지만, 명청 교체기의 풍속을 연구하는데 중요한 자료가 되고 있다.    또한, 당시에 전래하기 시작한 서양화풍의 영향을 받아 거리와 건물 등에 모두 투시원리가 적용되었고, 서양식 건축물도 삽입되어 있다 작품 전체가 화려하고 밝은 색조를 사용하고 있으며, 원숙하고 정교한 필치로 교량과 건물, 인물 등을 섬세하고 빈틈없이 묘사하고 있어, 화원화가들의 작품 가운데 가장 뛰어난 작품으로 평가되고 있다
 </mutableString>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1087,6 +1131,86 @@
             </objects>
             <point key="canvasLocation" x="9193" y="2688"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="1gn-oh-mU0">
+            <objects>
+                <viewController id="Xgh-cA-nvc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dAt-Jj-g1k">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="상아운룡문투구" translatesAutoresizingMaskIntoConstraints="NO" id="CAY-Iq-r00">
+                                <rect key="frame" x="20" y="30" width="374" height="330"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jto-3p-g4g">
+                                <rect key="frame" x="59" y="446" width="300" height="346"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <mutableString key="text">공과 받침대를 모두 상아로 조각하여 조합해 만든 것이다. 공의 지름은 약 12센치미터로 가장 바깥층은 용과 구름을 새겼고, 안쪽 각 층은 금지문을 새겼는데, 각 층이 서로 포개져 있고 안과 밖 총 24개의 층을 서로 자유롭게 돌려 움직일 수 있다. 상아 받침대의 가장 높은 곳은 공을 놓는 받침이고 아래쪽으로 산수와 인물로 장식하고, 중간에는 또 다른 9층의 용과 구름을 조각한 작은 공이 있으며 다시 아래쪽으로 누조 기법으로 여덟명의 신선을 조각했고, 받침대 역시 용과 구름의 모양으로 조각하였다
+
+명,청 시대에 상아 조각이 성행하면서 광저우는 지리적 이점 때문에 재료 공급이 원활하여 그 기술도 더욱 발전하게 되었다. 이 작품도 바로 광둥지역의 상아 공예가의 손에 완성된 것이다. 우선 상아 재료를 공 모양으로 돌려 깍은 뒤 표면에서 원의 중심을 향해 원뿔꼴의 구멍을 여러개 뚫은 후 원뿔꼴 구멍을 통해 칼로 한층 한층 공을 깍아 낸 후 다시 누조 방식으로 각종 문양을 조각한다. 제작 공정이 번거롭지만 빼어난 조각 기술을 선보이며 청나라 말기의 상아 조각 공예의 대표적 작품으로 일컬어진다.</mutableString>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="상아운룡문투구" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I09-NV-Wni">
+                                <rect key="frame" x="59" y="399" width="103" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="apY-ak-py7"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7De-Y9-Zcw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W20-9R-QOe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6906" y="1138"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CdA-0X-A5k">
+            <objects>
+                <viewController id="UUN-Qw-0ht" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="E0A-0g-iUH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="조감람핵주" translatesAutoresizingMaskIntoConstraints="NO" id="Hex-IU-dMg">
+                                <rect key="frame" x="20" y="30" width="374" height="330"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oNk-YZ-prA">
+                                <rect key="frame" x="59" y="446" width="300" height="346"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <mutableString key="text">진조장(18세기)은 청대의 궁정 장인으로 상아 조각에 이름이 높았지만, 과일의 씨앗에도 조각을 하기도 했다. 길이가 1.5 인치(3.5센치미터)에 불과한 올리브 씨에 조각한 이 작은 배도 그의 작품 가운데 하나이다. 올리브의 씨앗은 가늘고 길며 둘레가 활모양으로 되어 있어서 작은 배의 형태를 조각하기에 매우 적합하다
+
+장인의 솜씨가 정교하고 안정적이기 때문에 배 위에 쌀알 크기의 크고 작은 인물들은 물론, 여닫을 수 있게 창문과 탁자, 의자, 심지어 탁자 위의 잔과 접시까지 조각해 냈다. 배 밑에는 소동파의 시  적벽부 전문 총 300여자가 새겨져 있고 마지막으로 진조장의 서관과 제작일자 까지 새겨져 있어,  청대 조각공예의 극치를 보여주는 작품으로 평가되어 있다.</mutableString>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="조감람핵주" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fx-bZ-fpU">
+                                <rect key="frame" x="59" y="399" width="74" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="f1J-cq-NEt"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="y19-vg-Zzd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WAS-PX-QnZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7667" y="1138"/>
+        </scene>
     </scenes>
     <resources>
         <image name="1.circle" catalog="system" width="64" height="60"/>
@@ -1098,7 +1222,9 @@
         <image name="궁악도" width="1500" height="1043"/>
         <image name="당삼채" width="168" height="299"/>
         <image name="마오공딩" width="703" height="900"/>
+        <image name="상아운룡문투구" width="501" height="456"/>
         <image name="육형석" width="801" height="1024"/>
+        <image name="조감람핵주" width="226" height="223"/>
         <image name="종주종" width="500" height="666"/>
         <image name="청명상하도" width="1280" height="640"/>
         <image name="취옥백채" width="1000" height="1609"/>
