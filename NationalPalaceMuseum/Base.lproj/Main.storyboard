@@ -18,11 +18,11 @@
                         <sections>
                             <tableViewSection headerTitle="옥기" id="N95-mq-Bwc">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="140" id="b5h-Ii-guM">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="140" id="b5h-Ii-guM">
                                         <rect key="frame" x="0.0" y="28" width="414" height="140"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="b5h-Ii-guM" id="ydb-j8-oCn">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="140"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="취옥백채" translatesAutoresizingMaskIntoConstraints="NO" id="M2f-Sn-0j7">
@@ -38,12 +38,15 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="BWg-hK-46a" kind="show" id="YuO-bL-ueg"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="140" id="497-dE-Xtx">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="140" id="497-dE-Xtx">
                                         <rect key="frame" x="0.0" y="168" width="414" height="140"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="497-dE-Xtx" id="Zsd-uA-U5K">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="140"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="육형석" translatesAutoresizingMaskIntoConstraints="NO" id="4uW-MX-Ogn">
@@ -59,24 +62,27 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Uyd-iC-9fV" kind="show" id="YgN-rt-Vc2"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
                             <tableViewSection headerTitle="청동기" id="m5T-RQ-Cg6">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="140" id="kuJ-pd-beO">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="140" id="kuJ-pd-beO">
                                         <rect key="frame" x="0.0" y="364" width="414" height="140"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kuJ-pd-beO" id="TdN-Hw-E2b">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="140"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="마오공딩" translatesAutoresizingMaskIntoConstraints="NO" id="AWS-02-0sT">
                                                     <rect key="frame" x="13" y="12" width="168" height="128"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="woj-YV-9SR">
-                                                    <rect key="frame" x="315" y="60" width="42" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="모공정" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="woj-YV-9SR">
+                                                    <rect key="frame" x="315" y="60" width="45" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -84,20 +90,23 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="i49-Oc-VBL" kind="show" id="kAK-m5-npM"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="140" id="s5H-8n-va4">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="140" id="s5H-8n-va4">
                                         <rect key="frame" x="0.0" y="504" width="414" height="140"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="s5H-8n-va4" id="4yG-By-2B6">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="140"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="종주종" translatesAutoresizingMaskIntoConstraints="NO" id="kUc-zU-tWS">
                                                     <rect key="frame" x="11" y="11" width="168" height="128"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xn8-tY-p2z">
-                                                    <rect key="frame" x="314" y="60" width="42" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="종주종" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xn8-tY-p2z">
+                                                    <rect key="frame" x="314" y="60" width="45" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -105,6 +114,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="F2z-Sg-HZM" kind="show" id="lno-s3-0JB"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -913,7 +925,7 @@
             <objects>
                 <viewController id="BWg-hK-46a" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GXr-Se-f3m">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="취옥백채" translatesAutoresizingMaskIntoConstraints="NO" id="0Wc-jJ-GYh">
@@ -924,15 +936,18 @@
                                 <rect key="frame" x="59" y="446" width="300" height="346"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <mutableString key="text">명 현종 상화 연간에는 채자 기술이 발달하여 이른바 투채의 제작 성공이 큰 시선을 끌었다. 투채란 고온의 유하채인 청화와 저온의 유상채인 채색유를 서로 결합한 자기 종류의 하나이다. 먼저 코발트 안료로 자기 몸체의 청화의 윤각 그려 가마에 1차로 소성한 뒤 유샹채의  각종 화려한 색채의 안료를 칠한다 다시 저온으로 2차 소성하여 완성한다 유하채의 청화와 유상채의 채색유가 서로 아름다움을 다투게 되는 것이다. 투채는 명 성화 년간에 제작된 제품이 최고의 명성을 누리고 있다
+                                <mutableString key="text">‘취옥배추’는 고궁박물원에서 가장 주목받는 대표 문물 가운데 하나이다
+이 작품이 이름을 널리 알릴 수 있었던 것은 천 년에 하나 얻을 수 있을 까 말까 한 정교한 조각으로서 옥의 자연미와 정교한 조형미를 겸비하고 있기 때문이다 취옥은 주로 원난과 미얀마 지역에서 생산되는데 녹색을 띈 것을 취라 하고 붉은색을 띤 것을 비라 하는데 일반적으로 사람들은 이를 합쳐 비취라 부른다. 취옥배추의 재료는 휘옥류에 속하는 것으로 중국 전통 옥공예에서 사용되는 섬옥과는 다르다
 
-잔의 몸체에 닭을 주제로 한 무늬장식이 있고 자기 모양이 항아리 같이 보여 “계향배”라 불리기도 한다, 유상채에는 홍색과 황색, 갈색, 녹색 등으로 매우 다양하고 깊고 얇은 부분에 그리고 색을 넣거나 혹은 2가시 색을 중첩되게 채색한 부분도 있는데 절묘하게 어울리며 활발하고 생동감 넘치며 길상과 즐거움이 가득 넘치는 한 폭의 천륜도를 이루고 있다</mutableString>
+이 취옥배추는 백색 부분을 배추심과 잎의 웃부분으로 삼고, 녹색 부분을 배추 잎의 아랫부분으로 했으며, 잎이 자연스레 접힌 것이며 근맥도 표현한 것이 매우 자연스럽고 생동적인 느낌을 주는데 그 구상이 대단히 절묘하다, 이파리에는 두 마리의 곤충이 달라붙어 있는데 하나는 여치고, 하나는 메뚜기로 둘 다 번식력이 뛰어난 곤충이다
+
+취옥배추는 원래 자금성의 영화궁 안에 진설되어 있었는데, 청말에 영화궁이 근비가 거주하던 궁전이였던 점을 고려하면 취옥배추는 근비의 혼수였을 것으로 추정된다. 따라서 취옥배추는 신부의 순결함을 상징하는 동시에 황비가 자손을 많이 낳아 대대손손 황실의 혈통이 이어지기를 기원하는 의미가 있다고 볼 수 있다</mutableString>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="계향배" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MD1-wI-P5N">
-                                <rect key="frame" x="59" y="399" width="45" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="취옥백채" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MD1-wI-P5N">
+                                <rect key="frame" x="59" y="399" width="59" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -953,7 +968,7 @@
             <objects>
                 <viewController id="Uyd-iC-9fV" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pms-cf-2oa">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="육형석" translatesAutoresizingMaskIntoConstraints="NO" id="1AL-QL-jPx">
@@ -964,14 +979,16 @@
                                 <rect key="frame" x="59" y="446" width="300" height="346"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <mutableString key="text">명 현종 상화 연간에는 채자 기술이 발달하여 이른바 투채의 제작 성공이 큰 시선을 끌었다. 투채란 고온의 유하채인 청화와 저온의 유상채인 채색유를 서로 결합한 자기 종류의 하나이다. 먼저 코발트 안료로 자기 몸체의 청화의 윤각 그려 가마에 1차로 소성한 뒤 유샹채의  각종 화려한 색채의 안료를 칠한다 다시 저온으로 2차 소성하여 완성한다 유하채의 청화와 유상채의 채색유가 서로 아름다움을 다투게 되는 것이다. 투채는 명 성화 년간에 제작된 제품이 최고의 명성을 누리고 있다
+                                <mutableString key="text">육형석은 취옥배추와 함께 고궁박물원이 자랑하는 걸작이다. 아주 차갑고 단단한 돌임에 틀림이 없지만, 보기에는 부드럽고 육즙이 많은 ‘동파육’을 연상시커 보는 이들의 입에 침이 고이게 한다. 
 
-잔의 몸체에 닭을 주제로 한 무늬장식이 있고 자기 모양이 항아리 같이 보여 “계향배”라 불리기도 한다, 유상채에는 홍색과 황색, 갈색, 녹색 등으로 매우 다양하고 깊고 얇은 부분에 그리고 색을 넣거나 혹은 2가시 색을 중첩되게 채색한 부분도 있는데 절묘하게 어울리며 활발하고 생동감 넘치며 길상과 즐거움이 가득 넘치는 한 폭의 천륜도를 이루고 있다</mutableString>
+이 육형석의 재질은 일종의 불투명 옥수로서 그 무늬결이 층층이 쌓인 것을 볼 수 있다. 장인들이 이러한 천연적 특성을 살려 이를 가공해낸 것이다. 우선 옥수 표면에 아주 세밀한 구멍을 내어 모공의 효과를 연출한다. 동시에 구멍을 낸 뒤의 재질이 비교적 부드럽게 물러지기 때문에 쉽게 색을 입힐 수 있다.
+
+두번째 단계로, 최상층 부분에 갈색으로 색을 입혀 간장에 절인 돼지 껍데기의 느낌을 살려준다. 이른바 교조라는 것은 옥 재료의 천연적인 성질과 외형이나 색감을 그대로 살리면서 옥기의 형상과 구조를 설계하는 것을 말한다. 이는 외부 조건의 한계속에서 개인의 창조력을 최대한 발휘하는 창작 방식으로 결국 자연과 인위의 조화 이념을 실천하고자 함이라 할 수 있다 이 육형석은 ’교조’ 작품 가운데 실로 진귀한 작품이라 할 수 있다. </mutableString>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="계향배" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Seg-CW-UbX">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="육형석" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Seg-CW-UbX">
                                 <rect key="frame" x="59" y="399" width="45" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -993,7 +1010,7 @@
             <objects>
                 <viewController id="i49-Oc-VBL" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7pd-77-nuI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="마오공딩" translatesAutoresizingMaskIntoConstraints="NO" id="geP-BH-zf5">
@@ -1004,14 +1021,15 @@
                                 <rect key="frame" x="59" y="446" width="300" height="346"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <mutableString key="text">명 현종 상화 연간에는 채자 기술이 발달하여 이른바 투채의 제작 성공이 큰 시선을 끌었다. 투채란 고온의 유하채인 청화와 저온의 유상채인 채색유를 서로 결합한 자기 종류의 하나이다. 먼저 코발트 안료로 자기 몸체의 청화의 윤각 그려 가마에 1차로 소성한 뒤 유샹채의  각종 화려한 색채의 안료를 칠한다 다시 저온으로 2차 소성하여 완성한다 유하채의 청화와 유상채의 채색유가 서로 아름다움을 다투게 되는 것이다. 투채는 명 성화 년간에 제작된 제품이 최고의 명성을 누리고 있다
+                                <mutableString key="text">정은 고대에 고기를 삶는 냄비로 사용되었는데 밑에 세 개의 다리를 설치하여 물을 끓였다. 정은 상주시대에는 권력과 신분을 나타내는 예기의 하나로서 가장 중요한 기물이기도 했다.
 
-잔의 몸체에 닭을 주제로 한 무늬장식이 있고 자기 모양이 항아리 같이 보여 “계향배”라 불리기도 한다, 유상채에는 홍색과 황색, 갈색, 녹색 등으로 매우 다양하고 깊고 얇은 부분에 그리고 색을 넣거나 혹은 2가시 색을 중첩되게 채색한 부분도 있는데 절묘하게 어울리며 활발하고 생동감 넘치며 길상과 즐거움이 가득 넘치는 한 폭의 천륜도를 이루고 있다</mutableString>
+이 모공정은 서주 말이의 전형적인 청동기이다. 외부 장식이 소박하면서 화려하고 위엄있는 동물 얼굴 모양의 수면문도 없으며 단지 위쪽에 간다한 환형 장식이 하나 있을 뿐이다. ‘모공정’의 중요성은 그 안에 500자에 달하는 장문의 명문이 주조되어 있다는 사실에 있다. 이 것이 바로 역사학자들이 모공정을 문화적 국보로 간주하는 주요 원인이기도 하다.
+명문의 대략적인 의미는 주나라 선왕의 숙부인 모공의 공적을 기리는 것이다. 모공은 선왕을 도와 나라를 다스리면서 근면하고 공정한 자세를 잃지 않았고 그런 공로로 상을 하사받았는데, 이에 자손들이 선조의 공적을 이어가기를 바라는 마음에서 이 정을 제작하였다. ‘모공정’은 단정하며 크기도 매우 크다 정을 받치고 있는 다리는 동물의 발굽을 모방하요 초기의 원기둥꼴 다리와 다른 모습을 보이고 있다. 이는 훨씬 안정적이고 힘이 있는 형태로 후대 사원의 향로나 가구 모양의 기원이 되었다.</mutableString>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="계향배" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZOp-xv-vPU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="모공정" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZOp-xv-vPU">
                                 <rect key="frame" x="59" y="399" width="45" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1033,7 +1051,7 @@
             <objects>
                 <viewController id="F2z-Sg-HZM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rvT-pK-BXj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="종주종" translatesAutoresizingMaskIntoConstraints="NO" id="cHW-oC-qi1">
@@ -1044,14 +1062,15 @@
                                 <rect key="frame" x="59" y="446" width="300" height="346"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <mutableString key="text">명 현종 상화 연간에는 채자 기술이 발달하여 이른바 투채의 제작 성공이 큰 시선을 끌었다. 투채란 고온의 유하채인 청화와 저온의 유상채인 채색유를 서로 결합한 자기 종류의 하나이다. 먼저 코발트 안료로 자기 몸체의 청화의 윤각 그려 가마에 1차로 소성한 뒤 유샹채의  각종 화려한 색채의 안료를 칠한다 다시 저온으로 2차 소성하여 완성한다 유하채의 청화와 유상채의 채색유가 서로 아름다움을 다투게 되는 것이다. 투채는 명 성화 년간에 제작된 제품이 최고의 명성을 누리고 있다
+                                <mutableString key="text">종은 고대 전례시 사용되던 타악기 중 하나이다. &lt;종주종&gt;은 서주 천자가 사용한 기물이다. 종은 대부분 입구가 아래를 향하고 있어 매달아야 두드려 연주할 수 있었다. 종의 양면에는 총 36개의 장식이 되어 있다
 
-잔의 몸체에 닭을 주제로 한 무늬장식이 있고 자기 모양이 항아리 같이 보여 “계향배”라 불리기도 한다, 유상채에는 홍색과 황색, 갈색, 녹색 등으로 매우 다양하고 깊고 얇은 부분에 그리고 색을 넣거나 혹은 2가시 색을 중첩되게 채색한 부분도 있는데 절묘하게 어울리며 활발하고 생동감 넘치며 길상과 즐거움이 가득 넘치는 한 폭의 천륜도를 이루고 있다</mutableString>
+종주종이 유명해 진 것은 무려 123자에 달하는 명문 덕분이다 명문은 정 중앙에 있는 징 부분부터 읽어 내려가면 된다. 명문의 대략적인 내용은 주나라 여왕 때 남방의 복국이 쳐들어오자 여왕이 직접 토벌에 나서 개선하고 돌아와 이 &lt;종주종&gt;을 만들어 조상에게 감사의 제를 올렸다는 것이다. 명문에 나오는 창창총총이란 구절은 종을 두드릴 때 나는 소리를  묘사한 말인데, 이로써 청동기가 우리에게 진귀한 사료와 시각적 즐거움을 제공할 뿐만 아니라 청각적인 상상도 안겨준다는 사실을 알 수 있다
+</mutableString>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="계향배" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X5u-Ox-cLJ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="종주종" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X5u-Ox-cLJ">
                                 <rect key="frame" x="59" y="399" width="45" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
